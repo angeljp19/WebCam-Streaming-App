@@ -1,0 +1,21 @@
+{
+  "name": "joystick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently 'nodemon app.js' 'npx tailwindcss -i ./public/input.css -o ./public/output.css --watch'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "nipplejs": "^0.10.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
